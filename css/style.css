@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    /*  background-color: aliceblue; color: #fe87f0; */
+    text-align: center;
+    background-color: rgb(244, 174, 225);
+    border: 100cap;
+    
+}
+h1{
+        font-size: 100px;
+
+}
+input{
+    width: 300px;
+    height: 100px;
+    margin-block: 20;
+    margin-inline: auto;
+    background-attachment: fixed;
+
+
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 100px;
+    margin: 10px;
+    background-color: rgb(255, 139, 226);
+    color: rgb(44, 0, 43);
+
+}
+.btn:hover{
+    background-color: rgb(248, 178, 212);
+    cursor: pointer;
+}
